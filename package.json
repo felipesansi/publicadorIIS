@@ -4,7 +4,8 @@
   "description": "Publica projetos ASP.NET no IIS remoto usando Web Deploy",
   "version": "0.0.1",
   "publisher": "felipesansi",
-  "icon": "images/icon.png",
+
+
   "engines": {
     "vscode": "^1.101.0"
   },
