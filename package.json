@@ -4,8 +4,11 @@
   "description": "Publica projetos ASP.NET no IIS remoto usando Web Deploy",
   "version": "0.0.1",
   "publisher": "felipesansi",
-
-
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/felipesansi/publicadorIIS.git"
+  },
   "engines": {
     "vscode": "^1.101.0"
   },
@@ -13,10 +16,7 @@
     "Other"
   ],
   "main": "./dist/extension.js",
-  "activationEvents": [
-    
-    
-  ],
+  "activationEvents": [],
   "contributes": {
     "commands": [
       {
@@ -29,17 +29,17 @@
         {
           "id": "publicadorIIS",
           "title": "Publicar IIS",
-          "icon": "images/icon.png"
+          "icon": "icon.png"
         }
       ]
     },
     "views": {
       "publicadorIIS": [
         {
+          "icon": "icon.png",
           "type": "webview",
           "id": "publicadorIIS.view",
-          "name": "Painel de Publicação",
-          "icon": "images/icon.png"
+          "name": "Painel de Publicação"
         }
       ]
     }
